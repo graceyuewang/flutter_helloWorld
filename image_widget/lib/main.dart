@@ -93,14 +93,21 @@ class MyApp extends StatelessWidget {
           //  ),
             
             // 混色
-            Text('混色'),
-            Image.asset(
-              _assetHeaderImg,
-              color: Colors.amber,
-              colorBlendMode: BlendMode,
-            )
+            // Text('混色'),
+            // Image.asset(
+            //   _assetHeaderImg,
+            //   color: Colors.amber,
+            //   colorBlendMode: BlendMode.dstATop,
+            // )
             //裁剪
-            //Text('裁剪')
+            Text('裁剪'),
+            Image.asset(
+              _assetImg,
+              width:400,
+              height:100,
+              fit:BoxFit.cover,
+            ),
+
            ],
         ),
         
